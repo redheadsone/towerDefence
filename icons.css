@@ -1,0 +1,14 @@
+i[class^="icon-"] {
+  display: block;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+}
+
+.icon-load {
+  background-image: url("./images/ui/outbox-tray_1f4e4.png");
+}
+
+.icon-save {
+  background-image: url("./images/ui/floppy-disk_1f4be.png");
+}

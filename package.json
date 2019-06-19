@@ -1,0 +1,11 @@
+{
+  "name": "towerdefence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "towerDefence.js",
+  "scripts": {
+    "start": "http-server ./"
+  },
+  "author": "Dawa",
+  "license": "ISC"
+}

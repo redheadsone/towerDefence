@@ -1,0 +1,49 @@
+@import "./icons.css";
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+canvas {
+  border: 1px solid darkgrey;
+  background-color: #9ec79e;
+}
+
+:root {
+  --toolSize: 50px;
+}
+
+.tools {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  flex: 0 0 calc(var(--toolSize) * 2);
+}
+.controls {
+  display: flex;
+  flex-direction: row;
+}
+
+.controls > button {
+  margin: 10px;
+}
+
+.tool {
+  width: var(--toolSize);
+  height: var(--toolSize);
+
+  padding: 0;
+  border: none;
+  box-shadow: 0 0 1px 0px black;
+  user-select: none;
+}
+
+.tool:active,
+.tool:focus {
+  background-color: lightgrey;
+}
